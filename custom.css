@@ -1,0 +1,63 @@
+
+/*override Bootstrap design styles here */
+
+body {
+	font-family: Calibri, sans-serif;
+}
+
+@media (min-width: 992px) {
+
+	body {
+    padding-left: 17rem;
+}
+
+    nav {
+    	width: 17rem;
+    	height: 100vh;
+    	position: fixed;
+    	top: 0;
+    	right: 0;
+    	left: 0;
+    	z-index: 1030;
+	}
+	
+	.nav{
+		width: 100%;
+	}
+
+	.img-profile {
+    	margin-top: 50px;
+	}
+}
+
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    padding: .5rem 1rem;
+}
+
+.nav-link {
+    color: #1d2129;
+}
+
+.nav-link:hover, .active {
+	color: #1d2129;
+    background-color: #f2f2f2;
+}
+
+section {
+    border-bottom: 1px solid #dee2e6;
+    padding: 3rem;
+    color: #868e96;
+}
+
+h1 {
+	font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3a3439;
+}
+
+.link, .link:hover {
+    color: #1d2129;
+}
